@@ -46,7 +46,7 @@
     
     UITextField *userNameField;
     UITextField *userPasswordField;
-  
+    UIButton *userLoginButton;
 
     
 }
