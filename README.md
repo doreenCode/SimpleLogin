@@ -1,9 +1,10 @@
-# Objective C iOS project 0001
+### Objective C iOS project 0001
+* iPhone 6/ xcode Version 6.4/ iOS 8
 
 
-Programmatically create a simple login screen  [iPhone 6/ xcode Version 6.4/ iOS 8] 
+Programmatically create a simple login screen (Initializing a View Object) 
  
- * UIView
+ * UIView 
  * UItextfields 
  * Basic annimation
  * UITextFieldDelegate
