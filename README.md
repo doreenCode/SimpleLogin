@@ -1,5 +1,12 @@
-# Objective C iOS project
- 
+.hi {
+  background: linear-gradient(225deg, lightpink, lightblue);
+  border: thick dotted purple;
+} 
+
+# Objective C iOS project 0001
+
+Happy <span class="hi">Birthday</span> my friend!
+
 Programmatically create a simple login screen  [iPhone 6/ xcode Version 6.4/ iOS 8] 
  
  * UIView
