@@ -8,7 +8,7 @@ Programmatically create a simple login screen (Initializing a View Object)
  * UItextfields 
  * Basic annimation
  * UITextFieldDelegate
- * Fade in/ out annimation
+ * Fade in/ out animation
  
  
 ##### Login Screen
