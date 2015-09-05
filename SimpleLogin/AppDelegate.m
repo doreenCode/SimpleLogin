@@ -1,5 +1,5 @@
 //
-//  AppDelegate.m
+//  ViewController.m
 //  SimpleLogin
 //
 // The MIT License (MIT)

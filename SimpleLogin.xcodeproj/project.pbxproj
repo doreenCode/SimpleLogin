@@ -7,52 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D9A59DE1B9799E300C814A1 /* loginView.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A59DD1B9799E300C814A1 /* loginView.jpg */; };
-		4DDD30361B97608F002AE129 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD30351B97608F002AE129 /* main.m */; };
-		4DDD30391B97608F002AE129 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD30381B97608F002AE129 /* AppDelegate.m */; };
-		4DDD303C1B97608F002AE129 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD303B1B97608F002AE129 /* ViewController.m */; };
-		4DDD303F1B97608F002AE129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDD303D1B97608F002AE129 /* Main.storyboard */; };
-		4DDD30411B97608F002AE129 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDD30401B97608F002AE129 /* Images.xcassets */; };
-		4DDD30441B97608F002AE129 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DDD30421B97608F002AE129 /* LaunchScreen.xib */; };
-		4DDD30501B97608F002AE129 /* SimpleLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD304F1B97608F002AE129 /* SimpleLoginTests.m */; };
+		4D27ED431B9B63F800E6DDD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27ED421B9B63F800E6DDD2 /* main.m */; };
+		4D27ED461B9B63F800E6DDD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27ED451B9B63F800E6DDD2 /* AppDelegate.m */; };
+		4D27ED491B9B63F800E6DDD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27ED481B9B63F800E6DDD2 /* ViewController.m */; };
+		4D27ED4C1B9B63F800E6DDD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D27ED4A1B9B63F800E6DDD2 /* Main.storyboard */; };
+		4D27ED4E1B9B63F800E6DDD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D27ED4D1B9B63F800E6DDD2 /* Images.xcassets */; };
+		4D27ED511B9B63F800E6DDD2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D27ED4F1B9B63F800E6DDD2 /* LaunchScreen.xib */; };
+		4D27ED5D1B9B63F800E6DDD2 /* SimpleLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27ED5C1B9B63F800E6DDD2 /* SimpleLoginTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4DDD304A1B97608F002AE129 /* PBXContainerItemProxy */ = {
+		4D27ED571B9B63F800E6DDD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4DDD30281B97608F002AE129 /* Project object */;
+			containerPortal = 4D27ED351B9B63F800E6DDD2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4DDD302F1B97608F002AE129;
+			remoteGlobalIDString = 4D27ED3C1B9B63F800E6DDD2;
 			remoteInfo = SimpleLogin;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D9A59DD1B9799E300C814A1 /* loginView.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginView.jpg; sourceTree = "<group>"; };
-		4DDD30301B97608F002AE129 /* SimpleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DDD30341B97608F002AE129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DDD30351B97608F002AE129 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4DDD30371B97608F002AE129 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4DDD30381B97608F002AE129 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4DDD303A1B97608F002AE129 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4DDD303B1B97608F002AE129 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4DDD303E1B97608F002AE129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4DDD30401B97608F002AE129 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4DDD30431B97608F002AE129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4DDD30491B97608F002AE129 /* SimpleLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DDD304E1B97608F002AE129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DDD304F1B97608F002AE129 /* SimpleLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleLoginTests.m; sourceTree = "<group>"; };
+		4D27ED3D1B9B63F800E6DDD2 /* SimpleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D27ED411B9B63F800E6DDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D27ED421B9B63F800E6DDD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D27ED441B9B63F800E6DDD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D27ED451B9B63F800E6DDD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D27ED471B9B63F800E6DDD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D27ED481B9B63F800E6DDD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D27ED4B1B9B63F800E6DDD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D27ED4D1B9B63F800E6DDD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D27ED501B9B63F800E6DDD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4D27ED561B9B63F800E6DDD2 /* SimpleLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D27ED5B1B9B63F800E6DDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D27ED5C1B9B63F800E6DDD2 /* SimpleLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleLoginTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4DDD302D1B97608F002AE129 /* Frameworks */ = {
+		4D27ED3A1B9B63F800E6DDD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DDD30461B97608F002AE129 /* Frameworks */ = {
+		4D27ED531B9B63F800E6DDD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,62 +60,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DDD30271B97608F002AE129 = {
+		4D27ED341B9B63F800E6DDD2 = {
 			isa = PBXGroup;
 			children = (
-				4DDD30321B97608F002AE129 /* SimpleLogin */,
-				4DDD304C1B97608F002AE129 /* SimpleLoginTests */,
-				4DDD30311B97608F002AE129 /* Products */,
+				4D27ED3F1B9B63F800E6DDD2 /* SimpleLogin */,
+				4D27ED591B9B63F800E6DDD2 /* SimpleLoginTests */,
+				4D27ED3E1B9B63F800E6DDD2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4DDD30311B97608F002AE129 /* Products */ = {
+		4D27ED3E1B9B63F800E6DDD2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DDD30301B97608F002AE129 /* SimpleLogin.app */,
-				4DDD30491B97608F002AE129 /* SimpleLoginTests.xctest */,
+				4D27ED3D1B9B63F800E6DDD2 /* SimpleLogin.app */,
+				4D27ED561B9B63F800E6DDD2 /* SimpleLoginTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DDD30321B97608F002AE129 /* SimpleLogin */ = {
+		4D27ED3F1B9B63F800E6DDD2 /* SimpleLogin */ = {
 			isa = PBXGroup;
 			children = (
-				4DDD30371B97608F002AE129 /* AppDelegate.h */,
-				4DDD30381B97608F002AE129 /* AppDelegate.m */,
-				4DDD303A1B97608F002AE129 /* ViewController.h */,
-				4DDD303B1B97608F002AE129 /* ViewController.m */,
-				4DDD303D1B97608F002AE129 /* Main.storyboard */,
-				4DDD30401B97608F002AE129 /* Images.xcassets */,
-				4D9A59DD1B9799E300C814A1 /* loginView.jpg */,
-				4DDD30421B97608F002AE129 /* LaunchScreen.xib */,
-				4DDD30331B97608F002AE129 /* Supporting Files */,
+				4D27ED441B9B63F800E6DDD2 /* AppDelegate.h */,
+				4D27ED451B9B63F800E6DDD2 /* AppDelegate.m */,
+				4D27ED471B9B63F800E6DDD2 /* ViewController.h */,
+				4D27ED481B9B63F800E6DDD2 /* ViewController.m */,
+				4D27ED4A1B9B63F800E6DDD2 /* Main.storyboard */,
+				4D27ED4D1B9B63F800E6DDD2 /* Images.xcassets */,
+				4D27ED4F1B9B63F800E6DDD2 /* LaunchScreen.xib */,
+				4D27ED401B9B63F800E6DDD2 /* Supporting Files */,
 			);
 			path = SimpleLogin;
 			sourceTree = "<group>";
 		};
-		4DDD30331B97608F002AE129 /* Supporting Files */ = {
+		4D27ED401B9B63F800E6DDD2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4DDD30341B97608F002AE129 /* Info.plist */,
-				4DDD30351B97608F002AE129 /* main.m */,
+				4D27ED411B9B63F800E6DDD2 /* Info.plist */,
+				4D27ED421B9B63F800E6DDD2 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4DDD304C1B97608F002AE129 /* SimpleLoginTests */ = {
+		4D27ED591B9B63F800E6DDD2 /* SimpleLoginTests */ = {
 			isa = PBXGroup;
 			children = (
-				4DDD304F1B97608F002AE129 /* SimpleLoginTests.m */,
-				4DDD304D1B97608F002AE129 /* Supporting Files */,
+				4D27ED5C1B9B63F800E6DDD2 /* SimpleLoginTests.m */,
+				4D27ED5A1B9B63F800E6DDD2 /* Supporting Files */,
 			);
 			path = SimpleLoginTests;
 			sourceTree = "<group>";
 		};
-		4DDD304D1B97608F002AE129 /* Supporting Files */ = {
+		4D27ED5A1B9B63F800E6DDD2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4DDD304E1B97608F002AE129 /* Info.plist */,
+				4D27ED5B1B9B63F800E6DDD2 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,13 +122,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DDD302F1B97608F002AE129 /* SimpleLogin */ = {
+		4D27ED3C1B9B63F800E6DDD2 /* SimpleLogin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DDD30531B97608F002AE129 /* Build configuration list for PBXNativeTarget "SimpleLogin" */;
+			buildConfigurationList = 4D27ED601B9B63F800E6DDD2 /* Build configuration list for PBXNativeTarget "SimpleLogin" */;
 			buildPhases = (
-				4DDD302C1B97608F002AE129 /* Sources */,
-				4DDD302D1B97608F002AE129 /* Frameworks */,
-				4DDD302E1B97608F002AE129 /* Resources */,
+				4D27ED391B9B63F800E6DDD2 /* Sources */,
+				4D27ED3A1B9B63F800E6DDD2 /* Frameworks */,
+				4D27ED3B1B9B63F800E6DDD2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -139,46 +136,46 @@
 			);
 			name = SimpleLogin;
 			productName = SimpleLogin;
-			productReference = 4DDD30301B97608F002AE129 /* SimpleLogin.app */;
+			productReference = 4D27ED3D1B9B63F800E6DDD2 /* SimpleLogin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4DDD30481B97608F002AE129 /* SimpleLoginTests */ = {
+		4D27ED551B9B63F800E6DDD2 /* SimpleLoginTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DDD30561B97608F002AE129 /* Build configuration list for PBXNativeTarget "SimpleLoginTests" */;
+			buildConfigurationList = 4D27ED631B9B63F800E6DDD2 /* Build configuration list for PBXNativeTarget "SimpleLoginTests" */;
 			buildPhases = (
-				4DDD30451B97608F002AE129 /* Sources */,
-				4DDD30461B97608F002AE129 /* Frameworks */,
-				4DDD30471B97608F002AE129 /* Resources */,
+				4D27ED521B9B63F800E6DDD2 /* Sources */,
+				4D27ED531B9B63F800E6DDD2 /* Frameworks */,
+				4D27ED541B9B63F800E6DDD2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4DDD304B1B97608F002AE129 /* PBXTargetDependency */,
+				4D27ED581B9B63F800E6DDD2 /* PBXTargetDependency */,
 			);
 			name = SimpleLoginTests;
 			productName = SimpleLoginTests;
-			productReference = 4DDD30491B97608F002AE129 /* SimpleLoginTests.xctest */;
+			productReference = 4D27ED561B9B63F800E6DDD2 /* SimpleLoginTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4DDD30281B97608F002AE129 /* Project object */ = {
+		4D27ED351B9B63F800E6DDD2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = DCT;
 				TargetAttributes = {
-					4DDD302F1B97608F002AE129 = {
+					4D27ED3C1B9B63F800E6DDD2 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					4DDD30481B97608F002AE129 = {
+					4D27ED551B9B63F800E6DDD2 = {
 						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 4DDD302F1B97608F002AE129;
+						TestTargetID = 4D27ED3C1B9B63F800E6DDD2;
 					};
 				};
 			};
-			buildConfigurationList = 4DDD302B1B97608F002AE129 /* Build configuration list for PBXProject "SimpleLogin" */;
+			buildConfigurationList = 4D27ED381B9B63F800E6DDD2 /* Build configuration list for PBXProject "SimpleLogin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -186,30 +183,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 4DDD30271B97608F002AE129;
-			productRefGroup = 4DDD30311B97608F002AE129 /* Products */;
+			mainGroup = 4D27ED341B9B63F800E6DDD2;
+			productRefGroup = 4D27ED3E1B9B63F800E6DDD2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DDD302F1B97608F002AE129 /* SimpleLogin */,
-				4DDD30481B97608F002AE129 /* SimpleLoginTests */,
+				4D27ED3C1B9B63F800E6DDD2 /* SimpleLogin */,
+				4D27ED551B9B63F800E6DDD2 /* SimpleLoginTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4DDD302E1B97608F002AE129 /* Resources */ = {
+		4D27ED3B1B9B63F800E6DDD2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D9A59DE1B9799E300C814A1 /* loginView.jpg in Resources */,
-				4DDD303F1B97608F002AE129 /* Main.storyboard in Resources */,
-				4DDD30441B97608F002AE129 /* LaunchScreen.xib in Resources */,
-				4DDD30411B97608F002AE129 /* Images.xcassets in Resources */,
+				4D27ED4C1B9B63F800E6DDD2 /* Main.storyboard in Resources */,
+				4D27ED511B9B63F800E6DDD2 /* LaunchScreen.xib in Resources */,
+				4D27ED4E1B9B63F800E6DDD2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DDD30471B97608F002AE129 /* Resources */ = {
+		4D27ED541B9B63F800E6DDD2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,47 +215,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4DDD302C1B97608F002AE129 /* Sources */ = {
+		4D27ED391B9B63F800E6DDD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DDD303C1B97608F002AE129 /* ViewController.m in Sources */,
-				4DDD30391B97608F002AE129 /* AppDelegate.m in Sources */,
-				4DDD30361B97608F002AE129 /* main.m in Sources */,
+				4D27ED491B9B63F800E6DDD2 /* ViewController.m in Sources */,
+				4D27ED461B9B63F800E6DDD2 /* AppDelegate.m in Sources */,
+				4D27ED431B9B63F800E6DDD2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DDD30451B97608F002AE129 /* Sources */ = {
+		4D27ED521B9B63F800E6DDD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DDD30501B97608F002AE129 /* SimpleLoginTests.m in Sources */,
+				4D27ED5D1B9B63F800E6DDD2 /* SimpleLoginTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4DDD304B1B97608F002AE129 /* PBXTargetDependency */ = {
+		4D27ED581B9B63F800E6DDD2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4DDD302F1B97608F002AE129 /* SimpleLogin */;
-			targetProxy = 4DDD304A1B97608F002AE129 /* PBXContainerItemProxy */;
+			target = 4D27ED3C1B9B63F800E6DDD2 /* SimpleLogin */;
+			targetProxy = 4D27ED571B9B63F800E6DDD2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4DDD303D1B97608F002AE129 /* Main.storyboard */ = {
+		4D27ED4A1B9B63F800E6DDD2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4DDD303E1B97608F002AE129 /* Base */,
+				4D27ED4B1B9B63F800E6DDD2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4DDD30421B97608F002AE129 /* LaunchScreen.xib */ = {
+		4D27ED4F1B9B63F800E6DDD2 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4DDD30431B97608F002AE129 /* Base */,
+				4D27ED501B9B63F800E6DDD2 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -267,7 +263,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4DDD30511B97608F002AE129 /* Debug */ = {
+		4D27ED5E1B9B63F800E6DDD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -310,7 +306,7 @@
 			};
 			name = Debug;
 		};
-		4DDD30521B97608F002AE129 /* Release */ = {
+		4D27ED5F1B9B63F800E6DDD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,7 +343,7 @@
 			};
 			name = Release;
 		};
-		4DDD30541B97608F002AE129 /* Debug */ = {
+		4D27ED611B9B63F800E6DDD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -357,7 +353,7 @@
 			};
 			name = Debug;
 		};
-		4DDD30551B97608F002AE129 /* Release */ = {
+		4D27ED621B9B63F800E6DDD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -367,7 +363,7 @@
 			};
 			name = Release;
 		};
-		4DDD30571B97608F002AE129 /* Debug */ = {
+		4D27ED641B9B63F800E6DDD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -386,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		4DDD30581B97608F002AE129 /* Release */ = {
+		4D27ED651B9B63F800E6DDD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -404,34 +400,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DDD302B1B97608F002AE129 /* Build configuration list for PBXProject "SimpleLogin" */ = {
+		4D27ED381B9B63F800E6DDD2 /* Build configuration list for PBXProject "SimpleLogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DDD30511B97608F002AE129 /* Debug */,
-				4DDD30521B97608F002AE129 /* Release */,
+				4D27ED5E1B9B63F800E6DDD2 /* Debug */,
+				4D27ED5F1B9B63F800E6DDD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DDD30531B97608F002AE129 /* Build configuration list for PBXNativeTarget "SimpleLogin" */ = {
+		4D27ED601B9B63F800E6DDD2 /* Build configuration list for PBXNativeTarget "SimpleLogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DDD30541B97608F002AE129 /* Debug */,
-				4DDD30551B97608F002AE129 /* Release */,
+				4D27ED611B9B63F800E6DDD2 /* Debug */,
+				4D27ED621B9B63F800E6DDD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		4DDD30561B97608F002AE129 /* Build configuration list for PBXNativeTarget "SimpleLoginTests" */ = {
+		4D27ED631B9B63F800E6DDD2 /* Build configuration list for PBXNativeTarget "SimpleLoginTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DDD30571B97608F002AE129 /* Debug */,
-				4DDD30581B97608F002AE129 /* Release */,
+				4D27ED641B9B63F800E6DDD2 /* Debug */,
+				4D27ED651B9B63F800E6DDD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4DDD30281B97608F002AE129 /* Project object */;
+	rootObject = 4D27ED351B9B63F800E6DDD2 /* Project object */;
 }

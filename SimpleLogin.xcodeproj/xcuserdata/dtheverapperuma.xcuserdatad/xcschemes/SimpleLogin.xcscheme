@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4DDD302F1B97608F002AE129"
+               BlueprintIdentifier = "4D27ED3C1B9B63F800E6DDD2"
                BuildableName = "SimpleLogin.app"
                BlueprintName = "SimpleLogin"
                ReferencedContainer = "container:SimpleLogin.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4DDD30481B97608F002AE129"
+               BlueprintIdentifier = "4D27ED551B9B63F800E6DDD2"
                BuildableName = "SimpleLoginTests.xctest"
                BlueprintName = "SimpleLoginTests"
                ReferencedContainer = "container:SimpleLogin.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4DDD30481B97608F002AE129"
+               BlueprintIdentifier = "4D27ED551B9B63F800E6DDD2"
                BuildableName = "SimpleLoginTests.xctest"
                BlueprintName = "SimpleLoginTests"
                ReferencedContainer = "container:SimpleLogin.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4DDD302F1B97608F002AE129"
+            BlueprintIdentifier = "4D27ED3C1B9B63F800E6DDD2"
             BuildableName = "SimpleLogin.app"
             BlueprintName = "SimpleLogin"
             ReferencedContainer = "container:SimpleLogin.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4DDD302F1B97608F002AE129"
+            BlueprintIdentifier = "4D27ED3C1B9B63F800E6DDD2"
             BuildableName = "SimpleLogin.app"
             BlueprintName = "SimpleLogin"
             ReferencedContainer = "container:SimpleLogin.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4DDD302F1B97608F002AE129"
+            BlueprintIdentifier = "4D27ED3C1B9B63F800E6DDD2"
             BuildableName = "SimpleLogin.app"
             BlueprintName = "SimpleLogin"
             ReferencedContainer = "container:SimpleLogin.xcodeproj">

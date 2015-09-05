@@ -47,7 +47,7 @@
     UITextField *userNameField;
     UITextField *userPasswordField;
     UIButton *userLoginButton;
-
+    
     
 }
 
@@ -89,7 +89,7 @@
     //Rounded corners
     userNameField.layer.cornerRadius = 20;
     
-   //Annimation, Login appearence
+    //Annimation, Login appearence
     userNameField.alpha = 0.0;
     [UIView beginAnimations:@"Fade-in" context:NULL];
     [UIView setAnimationDuration:1.5];
@@ -121,7 +121,7 @@
     [UIView setAnimationDuration:2.5];
     userPasswordField.alpha = 1.0;
     [UIView commitAnimations];
-  
+    
     //add userNameField,userPasswordField loginView
     [self.loginView addSubview:userNameField];
     [self.loginView addSubview:userPasswordField];
@@ -145,9 +145,9 @@
         userPasswordField.backgroundColor =[UIColor colorWithRed:96 green:96 blue:96 alpha:0.8];
         userNameField.backgroundColor =[UIColor colorWithRed:96 green:96 blue:96 alpha:0.5];
     }
-  
     
-   return YES;
+    
+    return YES;
 }
 
 
@@ -157,18 +157,18 @@
         [userNameField resignFirstResponder];
         [userPasswordField becomeFirstResponder];
         userNameField.backgroundColor =[UIColor colorWithRed:96 green:96 blue:96 alpha:0.5];
-       }
+    }
     
     if(textField == userPasswordField) {
         [userPasswordField resignFirstResponder];
         userPasswordField.backgroundColor =[UIColor colorWithRed:96 green:96 blue:96 alpha:0.5];
         
         //Remove the loginIn View
-       [self.loginView removeFromSuperview];
-       [self createfirstView];
-
+        [self.loginView removeFromSuperview];
+        [self createfirstView];
         
-        }
+        
+    }
     
     
     return YES;
@@ -185,7 +185,7 @@
     
     //Add to the view
     [self.view addSubview:self.firstView];
-
+    
     
     
 }
@@ -197,3 +197,4 @@
 }
 
 @end
+
